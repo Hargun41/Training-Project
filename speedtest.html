@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TrainingProject</title>
+    <link rel="stylesheet" href="speedtest2.css">
+</head>
+
+<body>
+    <div class="bodyOfElements">
+        <header>
+
+            <div class="logo">
+                <a href="Project.html">
+                <img src="imagesOLD/logo2.png" alt="logo" height="300px">
+            </a>
+            </div>
+
+            <div class="navbar">
+                <nav>
+                    <ul>
+                        <li><a href="Project.html">Home</a></li>
+                        <li><a href="speedtest.html">Test</a></li>
+                        <li><a href="FAQs.html">FAQs</a></li>
+                        <li><a href="AboutUs.html">About Us</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+
+        <!-- <div class="heading">
+            <h1>Test your speeeeed!</h1>
+        </div> -->
+
+        <div class="wrapper">
+            <input type="text" class="input-field">
+            <div class="content-box">
+                <div class="typing-text">
+                    <p></p>
+                </div>
+                <div class="content">
+                    <ul class="result-details">
+                        <li class="time">
+                            <p>Time Remaining:</p>
+                            <span><b>60</b>s</span>
+                        </li>
+
+                        <li class="mistake">
+                            <p>Mistakes:</p>
+                            <span>0</span>
+                        </li>
+
+                        <li class="wpm">
+                            <p>WPM:</p>
+                            <span>0</span>
+                        </li>
+
+                        <li class="cpm">
+                            <p>CPM:</p>
+                            <span>0</span>
+                        </li>
+
+                    </ul>
+                    <button>Restart</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="overlay"></div>
+
+    <div class="pop-up">
+        <h1>Before you begin!</h1>
+        <p>As soon as you start typing, the 1-minute timer begins. Your goal is to type as much of the paragraph as
+            possible — ideally the whole thing — before time runs out. While you type, you’ll see your WPM (words
+            per minute), CPM (characters per minute), and Mistakes counters update in real time. WPM is only an
+            approximate number, not an exact measurement. If you click the Restart button, all stats will reset and
+            a brand-new paragraph will be loaded. Once the minute is over, typing will be disabled.<br> -Good luck,
+            and happy typing!</p>
+        <button id="close-popup">Let's Begin!</button>
+    </div>
+
+    <script src="paragraph.js"></script>
+    <script src="projScript.js"></script>
+    <script src="pop-up-Script.js"></script>
+
+</body>
+
+</html>
